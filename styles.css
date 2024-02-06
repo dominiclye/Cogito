@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --base-colour: #EBEBEB;
+    --secondary-colour: #0b2228;
+    --accent-colour: #4CB79D;
+}
+
+body {
+    background-color: var(--base-colour);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img.login-screen-logo{
+    width: 15em;
+}
+
+div.login-box {
+    background-color: var(--secondary-colour);
+    width: 20%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 30px -5px;
+}
+
+
+h1.login-box-header {
+    color: var(--base-colour);
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;    
+}
+
+form.login-form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 80%;
+}
+
+input.login-field{
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid var(--accent-colour);
+    margin: 0.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    caret-color: var(--accent-colour);
+    color: white;
+}
+
+input:focus{
+    outline: none;
+}
+
+button.login-button {
+    margin: 1.5rem 0rem 1rem 0rem;
+    border: 0;
+    background-color: var(--accent-colour);
+    padding: 0.7rem;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+div.socials-buttons{
+    background-color: var(--secondary-colour);
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 0 0 20px -2px;
+}
+
+a{
+    color: var(--base-colour);
+    margin: 0.5rem 1rem 0.5rem 1rem;
+
+}
+
+ion-icon{
+    font-size: 3rem;
+}
+
